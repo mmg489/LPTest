@@ -1,0 +1,15 @@
+.container{
+    background-color: black;
+    color:navajowhite;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+#shopNow{
+    background-color: navajowhite;
+    border-radius: 3px;
+    font-size: large;
+}
