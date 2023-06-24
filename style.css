@@ -13,3 +13,6 @@ body{
     border-radius: 3px;
     font-size: large;
 }
+#shopNow:active{
+    transform: scale(0.98);
+}
