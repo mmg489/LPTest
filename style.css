@@ -16,3 +16,12 @@ body{
 #shopNow:active{
     transform: scale(0.98);
 }
+
+.navBar{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.navBar ul li{
+    display: inline;
+}
