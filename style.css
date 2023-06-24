@@ -17,11 +17,17 @@ body{
     transform: scale(0.98);
 }
 
-.navBar{
+.navbar{
     background-color: navajowhite;
-    text-align: center;
+    text-align: left;
 }
 
-.navBar ul li{
-    display: inline;
+.nav-link{
+    color: grey;
+    padding-left: 4px;
+}
+
+.navbar .nav-link:hover{
+    color: magenta;
+
 }
