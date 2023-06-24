@@ -23,8 +23,11 @@ body{
 }
 
 .nav-link{
-    color: grey;
+    color: #4b5320;
+    text-shadow: 2px 2px 4px grey;
     padding-left: 4px;
+    font-size: larger;
+    text-decoration: none;
 }
 
 .navbar .nav-link:hover{
@@ -39,3 +42,23 @@ body{
     height: 300px; /* Adjust the height as needed */
   }
   
+  input[type="text"],input[type="email"], textarea#message {
+    background-color: navajowhite;
+  }
+  
+  button#submitBtn{
+    background-color: navajowhite;
+    border-radius: 15px;
+    margin-left: 10rem;
+    max-width: 10rem;
+    
+  }
+
+  #myForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 4rem;
+    margin-bottom: 10px;
+  }
